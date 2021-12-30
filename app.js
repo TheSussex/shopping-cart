@@ -1,8 +1,9 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
+import cors from 'cors';
 import 'dotenv/config';
-import router from './config/router/index';
+import router from './src/config/router';
 
 const app = express();
 const PORT = 5000;
@@ -12,8 +13,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const dbURL = process.env.SHOPPING_CART_DEV_DB_URL;
-
-router(app);
 
 mongoose.connect(dbURL,
   {
@@ -28,4 +27,5 @@ app.listen(PORT, () => {
 });
 
 router(app);
+
 export default app;

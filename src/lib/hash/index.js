@@ -1,10 +1,14 @@
 import crypto from 'crypto';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
+import { v4 as uuidv4 } from 'uuid';
+
+const saltRounds = 10;
 
 export default {
   generateRandom: () => {
     try {
-      return crypto.randomBytes(64).toString("hex");
+      return crypto.randomBytes(64).toString('hex');
     } catch (error) {
       return error;
     }
@@ -28,4 +32,5 @@ export default {
       return error;
     }
   },
+  generateUserId: () => `user-${uuidv4()}`,
 };

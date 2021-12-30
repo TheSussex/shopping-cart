@@ -5,18 +5,19 @@ import * as UserMiddleware from '../middlewares/middleware.user';
 import Model from '../middlewares/middleware.model';
 import Schema from '../../lib/schema/lib.schema.auth';
 
-
 const router = new Router();
 
-router.post('/',
+router.post(
+  '/',
   Model(Schema.newUser, 'payload'),
   UserMiddleware.getUser('validate'),
   AuthMiddleware.generateEmailVerificationToken,
   AuthMiddleware.hashPassword,
   AuthController.registerUser,
-  );
+);
 
-router.get('/confirmation',
+router.get(
+  '/confirmation',
   Model(Schema.verifyToken, 'query'),
   UserMiddleware.getUser('verify'),
   AuthMiddleware.isUserVerified('verify'),
@@ -24,8 +25,11 @@ router.get('/confirmation',
   AuthController.verifyEmail,
 );
 
-router.post('login',
+router.post(
+  'login',
   Model(Schema.login, 'payload'),
   UserMiddleware.getUser('verify'),
   AuthMiddleware.isUserVerified(),
 );
+
+export default router;

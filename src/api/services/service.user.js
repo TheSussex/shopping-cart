@@ -1,19 +1,20 @@
 import UserModel from '../models/model.user';
+import Hash from '../../lib/hash';
 
 export const addNewUser = (data) => {
-    const {
-      username, email, phoneNumber, password, isConfirmed, isActive, 
-    } = data;
-    return new UserModel({
-      userId: generateUserId(),
-      username,
-      email,
-      phoneNumber,
-      password,
-      isConfirmed,
-      isActive,
-    });
-  };
+  const {
+    username, email, phoneNumber, password, isConfirmed, isActive,
+  } = data;
+  return new UserModel({
+    userId: Hash.generateUserId(),
+    username,
+    email,
+    phoneNumber,
+    password,
+    isConfirmed,
+    isActive,
+  });
+};
 
 export const findUser = (payload) => UserModel.findOne({ payload });
 
