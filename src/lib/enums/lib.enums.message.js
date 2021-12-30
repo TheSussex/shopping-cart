@@ -1,0 +1,12 @@
+export const MSG_ROUTE_DOES_NOT_EXIST = 'Sorry that route/method does not exist';
+export const USER_EXIST = 'User already exist.';
+export const USER_NOT_EXIST = 'User does not exist.';
+export const SERVER_ERROR = 'Internal Server Error';
+export const REG_SUCCESSFUL = 'User registered successfully';
+export const INVALID_VERIFICATION_TOKEN = 'Invalid verification token';
+export const IS_VERIFIED = 'User already verified';
+export const NOT_VERIFIED = 'User not verified';
+export const INVALID_TOKEN = 'Invalid/Expired Token';
+export const EMAIL_VERIFIED = 'Email verified successfully';
+export const INVALID_CREDENTIALS = 'Invalid credentials';
+export const LOGIN_SUCCESSFUL = 'Login successful';
