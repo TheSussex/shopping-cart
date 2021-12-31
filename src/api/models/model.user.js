@@ -4,10 +4,6 @@ const { Schema, model } = mongoose;
 
 const userSchema = new Schema(
   {
-    userId: {
-      type: String,
-      required: true,
-    },
     username: {
       type: String,
       required: true,
@@ -19,12 +15,14 @@ const userSchema = new Schema(
     },
     phoneNumber: {
       type: String,
-      unique: true,
-      required: true,
     },
     password: {
       type: String,
       required: true,
+    },
+    roleCode: {
+      type: String,
+      default: 'USER',
     },
     isVerified: {
       type: Boolean,

@@ -1,13 +1,18 @@
 import enums from '../../lib/enums';
-import * as AuthService from '../services/service.user';
+import * as UserService from '../services/service.user';
 import ApiResponse from '../../lib/http/lib.http.response';
 
 export const getUser = (type = 'authenticate') => async(req, res, next) => {
   try {
     const { body, query } = req;
-    const payload = body.email || query.id;
-    const user = await AuthService.findUser(payload);
-    if (user && type === 'validate') {
+    let payload = { email: body.email };
+    if (!body.email) { payload = { emailVerificationToken: query.id }; }
+    const data = await UserService.findUser(payload);
+    if (!data && type === 'validate') {
+      return next();
+    }
+    const user = { ...data._doc };
+    if (data && type === 'validate') {
       return ApiResponse.error(res, enums.USER_EXIST, enums.HTTP_BAD_REQUEST, enums.GET_USER_MIDDLEWARE);
     }
     if (!user && type === 'verify') {

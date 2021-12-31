@@ -1,0 +1,921 @@
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"date":"Fri Dec 31 2021 11:34:03 GMT+0100 (West Africa Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":5000,"syscall":"listen"},"exception":true,"level":"error","message":"uncaughtException: listen EADDRINUSE: address already in use :::5000\nError: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/app.js:21:5)\n    at Generator.next (<anonymous>)","os":{"loadavg":[2.40234375,2.52783203125,2.47802734375],"uptime":1927739},"process":{"argv":["/usr/local/bin/node","/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/app.js"],"cwd":"/Users/thesussex/Desktop/thesussex/Projects/shopping-cart","execPath":"/usr/local/bin/node","gid":20,"memoryUsage":{"arrayBuffers":24006680,"external":34717284,"heapTotal":69869568,"heapUsed":44839688,"rss":108220416},"pid":7786,"uid":501,"version":"v16.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/app.js:21:5)\n    at Generator.next (<anonymous>)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/Users/thesussex/Desktop/thesussex/Projects/shopping-cart/app.js","function":null,"line":21,"method":null,"native":false},{"column":null,"file":null,"function":"Generator.next","line":null,"method":"next","native":false}]}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702551\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ email: 'daddy@gmail.com' }\" (type Object) at path \"email\" for model \"user\" - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702550\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702550\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702550\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"phoneNumber with value 090587025500 fails to match the required pattern: /^[0-9]{11}$/ - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702584\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702551\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702551\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702551\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"15c2e0ffcaaa4078ae93742e2a2107c5fb426cd5a9718ad0f28b837950027d4898345202e922b262c8642ce879d7dac7feacaef90a275a879cb8f639af8ae483\" (type string) at path \"_id\" for model \"user\" - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cee43112c0df5a2273a9f0\\n\" (type string) at path \"_id\" for model \"user\" - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"token is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid/Expired Token - 400 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: token is not defined - 500 - AuthMiddleware::checkVerificationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"error","message":"username is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"SyntaxError: Unexpected token } in JSON at position 33 - 500 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"password is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User does not exist. - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: token is not defined - 500 - AuthMiddleware::generateAuthenticationToken"}
+{"level":"error","message":"ReferenceError: token is not defined - 500 - AuthMiddleware::generateAuthenticationToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User not verified - 400 - AuthMiddleware::isUserVerified"}
+{"level":"error","message":"Invalid credentials - 400 - AuthMiddleware::comparePassword"}
+{"level":"error","message":"roleCode is not allowed - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"roleCode must be one of [ADMIN, USER] - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: Cannot access 'user' before initialization - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: data is not defined - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"ReferenceError: data is not defined - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702551\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702550\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"categoryName is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User not verified - 400 - AuthMiddleware::isUserVerified"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User not verified - 400 - AuthMiddleware::isUserVerified"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - AuthMiddleware::isUserVerified"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - AuthController::verifyEmail"}
+{"level":"error","message":"ReferenceError: user is not defined - 500 - AuthController::verifyEmail"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"error","message":"invalid token - 401 - AuthMiddleware::validateAuthToken"}
+{"level":"error","message":"Unauthorized - 401 - AuthMiddleware::isAdmin"}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required. - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required. - 500 - CategoryController::addCategory"}
+{"level":"error","message":"descriptions is not allowed - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"description is not allowed - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required. - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required. - 500 - CategoryController::addCategory"}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"ValidationError: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required. - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"ReferenceError: payload is not defined - 500 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"code is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"code is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productName is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"expirationDate is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"expirationDate must be a number - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"SyntaxError: Unexpected number in JSON at position 168 - 500 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"ValidationError: productCategory: Path `productCategory` is required. - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category already exist. - 400 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"TypeError: ProductService.findProduct is not a function - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot destructure property 'productName' of 'data' as it is undefined. - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: categoryCode is not defined - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ productName: 'Red bottoms' }\" (type Object) at path \"products\" for model \"category\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ productName: 'Zara' }\" (type Object) at path \"products\" for model \"category\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to string failed for value \"{ productName: 'Zara' }\" (type Object) at path \"products\" for model \"category\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"sku is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"sku is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"sku is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"id is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"product\" - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: ProductModel.delete is not a function - 500 - CategoryController::addCategory"}
+{"level":"error","message":"TypeError: ProductModel.delete is not a function - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf6169a7694e99c795bf9\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: query is not defined - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf6169a7694e99c795bf9\" (type string) at path \"_id\" for model \"product\" - 500 - ProductController::editProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf6169a7694e99c795bf\" (type string) at path \"_id\" for model \"product\" - 500 - ProductController::editProduct"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"FL3FHE70VG\" (type string) at path \"_id\" for model \"product\" - 500 - ProductController::editProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}

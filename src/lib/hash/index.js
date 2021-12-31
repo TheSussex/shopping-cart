@@ -27,10 +27,28 @@ export default {
   },
   generateToken: (user, secret) => {
     try {
-      return jwt.sign(user, secret, { expiresIn: '48h' });
+      const {
+        _id, email, username, phoneNumber,
+      } = user;
+      return jwt.sign({
+        _id, email, username, phoneNumber,
+      }, secret, { expiresIn: '48h' });
     } catch (error) {
       return error;
     }
   },
   generateUserId: () => `user-${uuidv4()}`,
+  decodeToken: (token, secret) => {
+    try {
+      return jwt.verify(token, secret);
+    } catch (error) {
+      return error;
+    }
+  },
+  generateRandomStrings: () => {
+    const str =
+    Math.random().toString(32).substring(5, 10) +
+    Math.random().toString(32).substring(5, 10);
+    return str.toUpperCase();
+  },
 };

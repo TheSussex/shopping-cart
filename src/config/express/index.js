@@ -1,57 +1,57 @@
-// import helmet from 'helmet';
-// import { json, urlencoded } from 'body-parser';
-// import compression from 'compression';
-// import cors from 'cors';
-// import fileUpload from 'express-fileupload';
-// import router from '../router';
-// import loggerInit from '../logger';
-// import { errorHandler } from '../../lib/http/lib.http.errorhandler';
-// import ApiResponse from '../../lib/http/lib.http.response';
-// import enums from '../../lib/enums';
+import helmet from 'helmet';
+import { json, urlencoded } from 'body-parser';
+import cors from 'cors';
+import router from '../router';
+import loggerInit from '../logger';
+import { errorHandler } from '../../lib/http/lib.http.errorhandler';
+import ApiResponse from '../../lib/http/lib.http.response';
+import enums from '../../lib/enums';
 
-// const { MSG_ROUTE_DOES_NOT_EXIST, HTTP_NOT_FOUND } = enums;
+const { MSG_ROUTE_DOES_NOT_EXIST, HTTP_NOT_FOUND } = enums;
 
-// const expressConfig = app => {
-//   let logger;
+const expressConfig = app => {
+  let logger;
 
-//   switch (app.get('env')) {
-//   case 'development':
-//     logger = loggerInit('development');
-//     break;
+  switch (app.get('env')) {
+  case 'development':
+    logger = loggerInit('development');
+    break;
 
-//   case 'test':
-//     logger = loggerInit('test');
-//     break;
+  case 'staging':
+    logger = loggerInit('staging');
+    break;
 
-//   default:
-//     logger = loggerInit();
-//   }
+  case 'test':
+    logger = loggerInit('test');
+    break;
 
-//   global.logger = logger;
-//   logger.info('Application starting...');
-//   app.use(
-//     urlencoded({
-//       extended: true,
-//     }),
-//   );
+  default:
+    logger = loggerInit();
+  }
 
-//   app.use(json());
-//   app.use(cors());
-//   app.use(helmet());
-//   app.use(compression());
-//   app.use(fileUpload());
+  global.logger = logger;
+  logger.info('Application starting...');
+  app.use(
+    urlencoded({
+      extended: true,
+    }),
+  );
 
-//   router(app);
+  app.use(json());
+  app.use(cors());
+  app.use(helmet());
 
-//   app.get('/', (req, res) => {
-//     res.send({ message: 'Welcome' });
-//   });
+  router(app);
 
-//   // catch 404 and forward to error handler
-//   // No routes matched? 404.
-//   app.use((req, res /* next */) => ApiResponse.error(res, MSG_ROUTE_DOES_NOT_EXIST, HTTP_NOT_FOUND));
-//   // Handle all errors in the application
-//   app.use(errorHandler);
-// };
+  app.get('/', (req, res) => {
+    res.send({ message: 'Welcome' });
+  });
 
-// export default expressConfig;
+  // catch 404 and forward to error handler
+  // No routes matched? 404.
+  app.use((req, res /* next */) => ApiResponse.error(res, MSG_ROUTE_DOES_NOT_EXIST, HTTP_NOT_FOUND));
+  // Handle all errors in the application
+  app.use(errorHandler);
+};
+
+export default expressConfig;

@@ -5,6 +5,7 @@ const newUser = Joi.object().keys({
   email: Joi.string().email().required(),
   phoneNumber: Joi.string().pattern(/^[0-9]{11}$/).required(),
   password: Joi.string().required(),
+  roleCode: Joi.string().valid('ADMIN', 'USER'),
 });
 
 const verifyToken = Joi.object().keys({

@@ -26,10 +26,13 @@ router.get(
 );
 
 router.post(
-  'login',
+  '/login',
   Model(Schema.login, 'payload'),
-  UserMiddleware.getUser('verify'),
+  UserMiddleware.getUser('authenticate'),
   AuthMiddleware.isUserVerified(),
+  AuthMiddleware.comparePassword,
+  AuthMiddleware.generateAuthenticationToken,
+  AuthController.login,
 );
 
 export default router;
