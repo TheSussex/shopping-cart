@@ -8,5 +8,5 @@ export const verifyUser = async(data) => {
   const { email, isVerified } = data;
   const filter = { email };
   const update = { $set: { isVerified, emailVerificationToken: '', emailVerificationTokenExpiry: '' } };
-  return UserModel.findOneAndUpdate(filter, update);
+  return UserModel.findOneAndUpdate(filter, update, { new: true });
 };

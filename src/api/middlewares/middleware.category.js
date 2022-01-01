@@ -4,9 +4,9 @@ import ApiResponse from '../../lib/http/lib.http.response';
 
 export const getCategory = (type = 'validate') => async(req, res, next) => {
   try {
-    const { body, params: { code } } = req;
+    const { body, query } = req;
     let payload = { categoryCode: body.categoryCode };
-    if (!body.categoryCode) { payload = { categoryCode: code }; }
+    if (!body.categoryCode) { payload = { categoryCode: query.code }; }
     const category = await CategoryService.findCategory(payload);
     if (category && type === 'validate') {
       return ApiResponse.error(res, enums.CATEGORY_EXIST, enums.HTTP_BAD_REQUEST, enums.GET_CATEGORY_MIDDLEWARE);

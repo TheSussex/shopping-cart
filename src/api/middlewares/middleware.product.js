@@ -21,7 +21,7 @@ export const getProduct = async(req, res, next) => {
   try {
     const { query: { id, sku } } = req;
     let payload = { sku };
-    if (!sku) { payload = { id }; }
+    if (!sku) { payload = { _id: id }; }
     const product = await ProductService.findProduct(payload);
     if (!product) {
       return ApiResponse.error(res, enums.PRODUCT_NOT_EXIST, enums.HTTP_BAD_REQUEST, enums.GET_PRODUCT_MIDDLEWARE);

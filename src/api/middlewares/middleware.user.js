@@ -11,8 +11,8 @@ export const getUser = (type = 'authenticate') => async(req, res, next) => {
     if (!data && type === 'validate') {
       return next();
     }
-    const user = { ...data._doc };
-    if (data && type === 'validate') {
+    const user = data ? { ...data._doc } : data;
+    if (user && type === 'validate') {
       return ApiResponse.error(res, enums.USER_EXIST, enums.HTTP_BAD_REQUEST, enums.GET_USER_MIDDLEWARE);
     }
     if (!user && type === 'verify') {

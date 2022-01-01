@@ -919,3 +919,600 @@
 {"level":"info","message":"Application starting..."}
 {"level":"info","message":"Application starting..."}
 {"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702552\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: Cannot read properties of null (reading '_doc') - 500 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User does not exist. - 404 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702552\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productId is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productId is not allowed to be empty - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: (intermediate value) is not iterable - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productId is not allowed - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf6169a7694e99c795bf9\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: product is not defined - 500 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productName is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ValidationError: products.0.productId: Cast to Number failed for value \"61cf6169a7694e99c795bf97\" (type string) at path \"productId\" - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: products is not defined - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: productId is not defined - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"TypeError: CartModel.findProduct is not a function - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query. - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query. - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query. - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: The positional operator did not find the match needed from the query. - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf6169a7694e99c795bf97\", quantity: 2, productName: \"Jordans\", _id: ObjectId('61d0324bb433eb81900f858d') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf6169a7694e99c795bf97\", quantity: 2, productName: \"Jordans\", _id: ObjectId('61d0324bb433eb81900f858d') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"ReferenceError: ApiResponse is not defined - 500 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"productId is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"sku is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf3b2984e7c92d236defa3\", quantity: 2, productName: \"Louboutin Heels\", _id: ObjectId('61d0695f59dc839858f08a3f') } ]} - 500 - CartController::addProductToCart"}
+{"level":"error","message":"ReferenceError: payload is not defined - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"sku is required - 422 - ModelMiddleware::validateData"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf4e4a7432ca29a556b1df\", quantity: 8, productName: \"Zara Heels\", _id: ObjectId('61d06c4877d87dff1de718ea') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c6d77d87dff1de718f3') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c7677d87dff1de718fb') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c8077d87dff1de71905') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06cd9f246a52052f27874') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06d4748e2e8601e5549a5') }, { productId: \"61cf5465edc9682d663a3300\", quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06e6475fb800c2de0e922') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf4e4a7432ca29a556b1df\", quantity: 8, productName: \"Zara Heels\", _id: ObjectId('61d06c4877d87dff1de718ea') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c6d77d87dff1de718f3') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c7677d87dff1de718fb') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06c8077d87dff1de71905') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06cd9f246a52052f27874') }, { quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06d4748e2e8601e5549a5') }, { productId: \"61cf5465edc9682d663a3300\", quantity: 15, productName: \"Red bottoms\", _id: ObjectId('61d06e6475fb800c2de0e922') } ]} - 500 - CartController::addProductToCart"}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702553\" } - 500 - AuthController::registerUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: E11000 duplicate key error collection: shopping-cart.users index: phoneNumber_1 dup key: { phoneNumber: \"09058702554\" } - 500 - AuthController::registerUser"}
+{"level":"error","message":"Invalid verification token - 404 - UserMiddleware::getUser"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User not verified - 400 - AuthMiddleware::isUserVerified"}
+{"level":"error","message":"Unauthorized - 401 - AuthMiddleware::isAdmin"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"User already exist. - 400 - UserMiddleware::getUser"}
+{"level":"error","message":"invalid token - 401 - AuthMiddleware::validateAuthToken"}
+{"level":"error","message":"Category already exist. - 400 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"Category does not exist. - 404 - CategoryMiddleware::getCategory"}
+{"level":"error","message":"Product already exist in category - 400 - ProductMiddleware::getProductInCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61d078c1d5513dbd8e09c2a\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"product\" - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ _id: undefined }\" (type Object) at path \"_id\" for model \"product\" - 500 - CategoryController::addCategory"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"ReferenceError: price is not defined - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf3b1684e7c92d236def9f\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d084f9ebb8cdb3f67cb00c') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d08626fc61424b0939fe01') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf3b1684e7c92d236def9f\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d084f9ebb8cdb3f67cb00c') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d08626fc61424b0939fe01') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot create field 'quantity' in element {products: [ { productId: \"61cf3b1684e7c92d236def9f\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d084f9ebb8cdb3f67cb00c') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 15, productName: \"Louboutin Heels\", _id: ObjectId('61d08626fc61424b0939fe01') } ]} - 500 - CartController::addProductToCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ productId: '61cf4e6f6b5ef363446da06e' }\" (type Object) at path \"_id\" for model \"cart\" - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ id: '61cf4e6f6b5ef363446da06e' }\" (type Object) at path \"_id\" for model \"cart\" - 500 - CartController::deleteFromCart"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ id: '61cf4e6f6b5ef363446da06e' }\" (type Object) at path \"_id\" for model \"cart\" - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"id is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Sorry that route/method does not exist - 404 - "}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf3b1684e7c92d236def9o\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf3b1684e7c92d236def9i\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf3b1684e7c92d236def9i\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}

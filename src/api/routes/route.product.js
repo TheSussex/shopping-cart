@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import * as AuthMiddleware from '../middlewares/middleware.auth';
 import Model from '../middlewares/middleware.model';
 import Schema from '../../lib/schema/lib.schema.product';
-import * as CategoryMiddleware from '../middlewares/middleware.category';
+import * as AuthMiddleware from '../middlewares/middleware.auth';
 import * as ProductController from '../controllers/controller.product';
 import * as ProductMiddleware from '../middlewares/middleware.product';
+import * as CategoryMiddleware from '../middlewares/middleware.category';
 
 const router = new Router();
 
@@ -49,4 +49,5 @@ router.get(
   ProductController.getProduct,
 );
 
+// get all products
 export default router;

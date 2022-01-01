@@ -1,9 +1,9 @@
 import { Router } from 'express';
+import Model from '../middlewares/middleware.model';
+import Schema from '../../lib/schema/lib.schema.auth';
 import * as AuthController from '../controllers/controller.auth';
 import * as AuthMiddleware from '../middlewares/middleware.auth';
 import * as UserMiddleware from '../middlewares/middleware.user';
-import Model from '../middlewares/middleware.model';
-import Schema from '../../lib/schema/lib.schema.auth';
 
 const router = new Router();
 

@@ -23,8 +23,8 @@ export const verifyEmail = async(req, res, next) => {
   try {
     const { user: { email } } = req;
     const payload = { email, isVerified: true };
-    const verifiedUser = await UserService.verifyUser(payload);
-    return ApiResponse.success(res, enums.EMAIL_VERIFIED, enums.HTTP_OK, verifiedUser);
+    await UserService.verifyUser(payload);
+    return ApiResponse.success(res, enums.EMAIL_VERIFIED, enums.HTTP_OK, '');
   } catch (error) {
     error.label = enums.VERIFY_EMAIL_CONTROLLER;
     return next(error);
