@@ -30,8 +30,9 @@ export const getProduct = async(req, res, next) => {
 
 export const deleteProduct = async(req, res, next) => {
   try {
-    const { params: { id } } = req;
-    const product = await ProductService.deleteProduct(id);
+    const { query: { id } } = req;
+    const payload = { _id: id}
+    await ProductService.deleteProduct(payload);
     return ApiResponse.success(res, enums.PRODUCT_DELETED, enums.HTTP_OK, '');
   } catch (error) {
     error.label = enums.ADD_CATEGORY_CONTROLLER;

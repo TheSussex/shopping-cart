@@ -11,12 +11,10 @@ export const addNewProductToCategory = async(data) => {
   const { productName, categoryCode } = data;
   const filter = { categoryCode };
   const update = { $push: { products: productName } };
-  return CategoryModel.findOneAndUpdate(filter, update);
+  return CategoryModel.findOneAndUpdate(filter, update, { new: true });
 };
 
-// export const deleteProduct = async(id) => ProductModel.findByIdAndDelete(id);
-
-export const deleteProduct = async(id) => ProductModel.deleteOne({ _id: id });
+export const deleteProduct = async(id) => ProductModel.findByIdAndRemove(id);
 
 export const editProduct = async(data) => {
   const {
@@ -28,5 +26,5 @@ export const editProduct = async(data) => {
       productName, description, sellingPrice, stockLevel, expirationDate,
     },
   };
-  return ProductModel.findOneAndUpdate(filter, update);
+  return ProductModel.findOneAndUpdate(filter, update, { new: true });
 };

@@ -1,49 +1,73 @@
-// import { Router } from 'express';
-// import * as AuthMiddleware from '../middlewares/middleware.auth';
-// import Model from '../middlewares/middleware.model';
-// import Schema from '../../lib/schema/lib.schema.auth';
+import { Router } from 'express';
+import Model from '../middlewares/middleware.model';
+import Schema from '../../lib/schema/lib.schema.cart';
+import * as AuthMiddleware from '../middlewares/middleware.auth';
+import * as CartMiddleware from '../middlewares/middleware.cart';
+import * as CartController from '../controllers/controller.cart';
+import * as ProductMiddleware from '../middlewares/middleware.product';
 
-// const router = new Router();
 
-// router.post(
-//   '/',
-//   Model(Schema.newProduct, 'payload'),
-//   AuthMiddleware.getAuthToken,
-//   AuthMiddleware.validateAuthToken,
-//   AuthMiddleware.isAdmin,
-//   ProductController.addProductToCategory,
-// );
+const router = new Router();
 
-// router.patch(
-//   '/',
-//   Model(Schema.editProduct, 'payload'),
-//   AuthMiddleware.getAuthToken,
-//   AuthMiddleware.validateAuthToken,
-//   AuthMiddleware.isAdmin,
-//   ProductController.editProduct,
-// );
+router.post(
+  '/',
+  Model(Schema.addToCart, 'payload'),
+  Model(Schema.addToCartQuery, 'query'),
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  ProductMiddleware.getProduct,
+  CartMiddleware.getCart('validate'),
+  CartController.addProductToCart,
+);
 
-// router.delete(
-//   '/:sku',
-//   AuthMiddleware.getAuthToken,
-//   AuthMiddleware.validateAuthToken,
-//   AuthMiddleware.isAdmin,
-//   ProductMiddleware.getProduct,
-//   ProductController.deleteProduct,
-// );
+router.delete(
+  '/all',
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  CartMiddleware.getCart('authenticate'),
+  CartController.deleteCart,
+);
 
-// router.get(
-//   '/:sku',
-//   AuthMiddleware.getAuthToken,
-//   AuthMiddleware.validateAuthToken,
-//   ProductController.getProduct, // name or product sku
-// );
+router.delete(
+  '/',
+  Model(Schema.deleteFromCart, 'query'),
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  ProductMiddleware.getProduct,
+  CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
+  CartController.deleteFromCart,
+);
 
-// router.get(
-//   '/',
-//   AuthMiddleware.getAuthToken,
-//   AuthMiddleware.validateAuthToken,
-//   ProductController.getProductByCategory,
-// );
+router.get(
+  '/all',
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  CartMiddleware.getCart('authenticate'),
+  CartController.getCart,
+);
 
-// export default router;
+router.get(
+  '/',
+  Model(Schema.getItemInCartQuery, 'query'),
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  ProductMiddleware.getProduct,
+  CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
+  CartController.getItemInCart,
+);
+
+router.patch(
+  '/',
+  Model(Schema.editProductInCart, 'payload'),
+  Model(Schema.editProductInCartQuery, 'query'),
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  ProductMiddleware.getProduct,
+  CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
+  CartController.editProductInCart,
+);
+
+export default router;
