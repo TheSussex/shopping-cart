@@ -128,6 +128,7 @@
           }
         ],
         "func-names": ["error", "never"],
-        "no-console": "off"
+        "no-console": "off",
+        "no-underscore-dangle": 0
       }
 }

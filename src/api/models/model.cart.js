@@ -6,11 +6,11 @@ const cartSchema = new Schema(
   {
     userId: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'user'
+      ref: 'user',
     },
     active: {
       type: Boolean,
-      default: true
+      default: true,
     },
     products: [
       {
@@ -19,14 +19,14 @@ const cartSchema = new Schema(
         productName: String,
         sellingPrice: Number,
         size: String,
-      }
+      },
     ],
     modifiedOn: {
       type: Date,
-      default: Date.now
-    }
+      default: Date.now,
+    },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 const CartModel = model('cart', cartSchema);
