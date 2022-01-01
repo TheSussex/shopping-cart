@@ -31,7 +31,7 @@ export const getProduct = async(req, res, next) => {
 export const deleteProduct = async(req, res, next) => {
   try {
     const { query: { id } } = req;
-    const payload = { _id: id}
+    const payload = { _id: id };
     await ProductService.deleteProduct(payload);
     return ApiResponse.success(res, enums.PRODUCT_DELETED, enums.HTTP_OK, '');
   } catch (error) {

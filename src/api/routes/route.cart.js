@@ -6,7 +6,6 @@ import * as CartMiddleware from '../middlewares/middleware.cart';
 import * as CartController from '../controllers/controller.cart';
 import * as ProductMiddleware from '../middlewares/middleware.product';
 
-
 const router = new Router();
 
 router.post(

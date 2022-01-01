@@ -3,7 +3,7 @@ import { json, urlencoded } from 'body-parser';
 import cors from 'cors';
 import router from '../router';
 import loggerInit from '../logger';
-import { errorHandler } from '../../lib/http/lib.http.errorhandler';
+import { errorHandler } from '../../lib/http/lib.http.errorHandler';
 import ApiResponse from '../../lib/http/lib.http.response';
 import enums from '../../lib/enums';
 

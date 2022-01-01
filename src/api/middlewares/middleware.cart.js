@@ -1,12 +1,11 @@
 import enums from '../../lib/enums';
 import * as CartService from '../services/service.cart';
 import ApiResponse from '../../lib/http/lib.http.response';
- 
 
 export const getCart = (type = 'validate') => async(req, res, next) => {
   try {
     const { user: { _id } } = req;
-    let payload = { userId: _id };
+    const payload = { userId: _id };
     const cart = await CartService.findCart(payload);
     if (!cart && type === 'authenticate') {
       return ApiResponse.error(res, enums.CART_NOT_EXIST, enums.HTTP_NOT_FOUND, enums.GET_CART_MIDDLEWARE);
@@ -25,7 +24,7 @@ export const getCart = (type = 'validate') => async(req, res, next) => {
 export const getItemInCart = async(req, res, next) => {
   try {
     const { cart, query } = req;
-    let payload = { id: query.id, cartId: cart.id };
+    const payload = { id: query.id, cartId: cart.id };
     const cartItem = await CartService.getItemInCart(payload);
     if (!cartItem) {
       return ApiResponse.error(res, enums.ITEM_NOT_IN_CART, enums.HTTP_NOT_FOUND, enums.GET_ITEM_IN_CART_MIDDLEWARE);

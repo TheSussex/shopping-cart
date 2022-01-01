@@ -4,6 +4,7 @@ import auth from '../../api/routes/route.auth';
 import category from '../../api/routes/route.category';
 import product from '../../api/routes/route.product';
 import cart from '../../api/routes/route.cart';
+
 const api = Router();
 
 api.use('/auth', auth);
