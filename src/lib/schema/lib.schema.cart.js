@@ -22,10 +22,15 @@ const editProductInCartQuery = Joi.object().keys({
   id: Joi.string().required(),
 });
 
+const getItemInCartQuery = Joi.object().keys({
+  id: Joi.string().required(),
+});
+
 export default {
   addToCart,
   addToCartQuery,
   deleteFromCart,
   editProductInCart,
   editProductInCartQuery,
+  getItemInCartQuery,
 };

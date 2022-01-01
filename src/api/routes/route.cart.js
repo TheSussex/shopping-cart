@@ -35,15 +35,27 @@ router.delete(
   AuthMiddleware.validateAuthToken,
   ProductMiddleware.getProduct,
   CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
   CartController.deleteFromCart,
 );
 
 router.get(
-  '/',
+  '/all',
   AuthMiddleware.getAuthToken,
   AuthMiddleware.validateAuthToken,
   CartMiddleware.getCart('authenticate'),
   CartController.getCart,
+);
+
+router.get(
+  '/',
+  Model(Schema.getItemInCartQuery, 'query'),
+  AuthMiddleware.getAuthToken,
+  AuthMiddleware.validateAuthToken,
+  ProductMiddleware.getProduct,
+  CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
+  CartController.getItemInCart,
 );
 
 router.patch(
@@ -54,6 +66,7 @@ router.patch(
   AuthMiddleware.validateAuthToken,
   ProductMiddleware.getProduct,
   CartMiddleware.getCart('authenticate'),
+  CartMiddleware.getItemInCart,
   CartController.editProductInCart,
 );
 

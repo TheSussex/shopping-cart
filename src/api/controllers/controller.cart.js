@@ -12,7 +12,7 @@ export const addProductToCart = async(req, res, next) => {
       let productIndex = cart.products.findIndex(p => p.productId === id);
 
       if (productIndex > -1) {
-        const payload = { id, quantity, cartId: cart.id }
+        const payload = { id, cartId: cart.id }
         const updatedProduct = await CartService.updateProductQuantityInCart(payload);
         return ApiResponse.success(res, enums.PRODUCT_ADDED_TO_CART, enums.HTTP_OK, updatedProduct);
       }
@@ -25,7 +25,6 @@ export const addProductToCart = async(req, res, next) => {
         size,
         productName,
       };
-
       const updatedCart = await CartService.updateCart(updatePayload);
       return ApiResponse.success(res, enums.PRODUCT_ADDED_TO_CART, enums.HTTP_CREATED, updatedCart);
     }
@@ -51,10 +50,20 @@ export const getCart = async(req, res, next) => {
   }
 };
 
+export const getItemInCart = async(req, res, next) => {
+  try {
+    const { cartItem: { products } } = req;    
+    return ApiResponse.success(res, enums.CART_ITEM_FETCHED, enums.HTTP_OK, products);
+  } catch (error) {
+    error.label = enums.GET_ITEM_IN_CART_CONTROLLER;
+    return next(error);
+  }
+};
+
 export const deleteFromCart = async(req, res, next) => {
   try {
-    const { query: { id } } = req;
-    const payload = id;
+    const { query, cart } = req;
+    const payload = { productId: query.id, cartId: cart.id };
     await CartService.deleteFromCart(payload); 
     return ApiResponse.success(res, enums.ITEM_DELETED_FROM_CART, enums.HTTP_OK, '');
   } catch (error) {
@@ -79,7 +88,7 @@ export const editProductInCart = async(req, res, next) => {
   try {
     const { query: { id }, body: { quantity, size }, cart } = req;
     const payload = {
-      id: cart.id,
+      cartId: cart.id,
       productId: id,
       quantity,
       size,

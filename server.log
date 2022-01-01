@@ -1516,3 +1516,189 @@
 {"level":"info","message":"Application starting..."}
 {"level":"info","message":"Application starting..."}
 {"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"{ userId: new ObjectId(\"61d075f2451c97dcc5cc0fbd\") }\" (type Object) at path \"_id\" for model \"cart\" - 500 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"error","message":"User has no existing cart - 404 - CartMiddleware::getCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"SyntaxError: Unexpected token / in JSON at position 6 - 500 - "}
+{"level":"error","message":"quantity is required - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot use the part (productId) of (products.productId) to traverse the element ({products: [ { productId: \"61cf52303cef626b4cbceb19\", quantity: 13, productName: \"Zara Heels\", sellingPrice: 4000, size: \"band\", _id: ObjectId('61d0c942358c9ac890796ca1') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 11, productName: \"Louboutin Heels\", sellingPrice: 4000, size: \"extra-large\", _id: ObjectId('61d0d18c3040a8df652ce61a') } ]}) - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot use the part (productId) of (products.productId) to traverse the element ({products: [ { productId: \"61cf52303cef626b4cbceb19\", quantity: 13, productName: \"Zara Heels\", sellingPrice: 4000, size: \"band\", _id: ObjectId('61d0c942358c9ac890796ca1') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 11, productName: \"Louboutin Heels\", sellingPrice: 4000, size: \"extra-large\", _id: ObjectId('61d0d18c3040a8df652ce61a') } ]}) - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot use the part (productId) of (products.productId) to traverse the element ({products: [ { productId: \"61cf52303cef626b4cbceb19\", quantity: 13, productName: \"Zara Heels\", sellingPrice: 4000, size: \"band\", _id: ObjectId('61d0c942358c9ac890796ca1') }, { productId: \"61cf3b2984e7c92d236defa3\", quantity: 11, productName: \"Louboutin Heels\", sellingPrice: 4000, size: \"extra-large\", _id: ObjectId('61d0d18c3040a8df652ce61a') } ]}) - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"MongoServerError: Plan executor error during findAndModify :: caused by :: Cannot apply $pull to a non-array value - 500 - CartController::deleteFromCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Please provide a token - 400 - AuthMiddleware::getAuthToken"}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"id is not allowed to be empty - 422 - ModelMiddleware::validateData"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf4e6f6b5ef363446da06p\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"CastError: Cast to ObjectId failed for value \"61cf4e6f6b5ef363446da06l\" (type string) at path \"_id\" for model \"product\" - 500 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Product does not exist - 400 - ProductMiddleware::getProduct"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"info","message":"Application starting..."}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"error","message":"Item not found in cart - 404 - CartMiddleware::getItemInCart"}
+{"level":"info","message":"Application starting..."}

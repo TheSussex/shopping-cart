@@ -24,7 +24,8 @@ export const PRODUCT_UPDATED = 'Product updated successfully';
 export const PRODUCT_ADDED_TO_CART = 'Product add to cart successfully';
 export const CART_NOT_EXIST = 'User has no existing cart';
 export const CART_FETCHED = 'Cart fetched successfully';
+export const CART_ITEM_FETCHED = 'Cart item fetched successfully';
 export const ITEM_DELETED_FROM_CART = 'Item deleted from cart successfully';
 export const CART_DELETED = 'User cart deleted successfully';
 export const CART_ITEM_EDITED = 'Cart item edited successfully';
-
+export const ITEM_NOT_IN_CART = 'Item not found in cart';

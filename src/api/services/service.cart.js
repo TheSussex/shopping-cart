@@ -12,19 +12,30 @@ export const updateCart = async(data) => {
 };
 
 export const updateProductQuantityInCart = async(data) => {
-    const { id, quantity, cartId } = data;
-    const filter = { _id: cartId, productId: id }; // can i filter by both cart id and product id?
-    const update = { $inc: { quantity: quantity } };
+    const { id, cartId } = data;
+    const filter = { _id: cartId, 'products.productId': id };
+    const update = { $inc: { 'products.$.quantity': 1 } };
     return CartModel.findOneAndUpdate(filter, update, { new: true });
 };
 
-export const deleteFromCart = async(id) => CartModel.deleteOne({ productId: id });
+export const deleteFromCart = async(data) => {
+    const { productId, cartId } = data;
+    const filter = { _id: cartId, 'products.productId': productId };
+    const update = { $pull: { products: { productId } } };
+    return CartModel.findOneAndUpdate(filter, update, { new: true });
+};
 
 export const deleteCart = async(id) => CartModel.deleteOne({ userId: id });
 
 export const editProductInCart = async(data) => {
-    const { id, quantity, size, cartId } = data;
-    const filter = { _id: cartId, productId: id };
-    const update = { $set: { quantity, size } };
+    const { productId, quantity, size, cartId } = data;
+    const filter = { _id: cartId, 'products.productId': productId };
+    const update = { $set: { 'products.$.quantity': quantity, 'products.$.size': size } };
     return CartModel.findOneAndUpdate(filter, update, { new: true });
+};
+
+export const getItemInCart = async(data) => {
+    const { id, cartId } = data;
+    const filter = { _id: cartId, 'products.productId': id };
+    return CartModel.findOne(filter);
 };
