@@ -2,15 +2,14 @@ import express from 'express';
 import mongoose from 'mongoose';
 import 'dotenv/config';
 import expressConfig from './src/config/express';
+import { db } from './src/config/db';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-const dbURL = process.env.SHOPPING_CART_DEV_DB_URL;
-
 expressConfig(app);
 
-mongoose.connect(dbURL,
+mongoose.connect(db,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
