@@ -16,7 +16,7 @@ export const getUser = (type = 'authenticate') => async(req, res, next) => {
       return ApiResponse.error(res, enums.USER_EXIST, enums.HTTP_BAD_REQUEST, enums.GET_USER_MIDDLEWARE);
     }
     if (!user && type === 'verify') {
-      return ApiResponse.error(res, enums.INVALID_VERIFICATION_TOKEN, enums.HTTP_NOT_FOUND, enums.GET_USER_MIDDLEWARE);
+      return ApiResponse.error(res, enums.INVALID_VERIFICATION_TOKEN, enums.HTTP_BAD_REQUEST, enums.GET_USER_MIDDLEWARE);
     }
     if (!user && type === 'authenticate') {
       return ApiResponse.error(res, enums.USER_NOT_EXIST, enums.HTTP_NOT_FOUND, enums.GET_USER_MIDDLEWARE);
