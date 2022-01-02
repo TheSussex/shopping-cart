@@ -1,7 +1,7 @@
 import Joi from 'joi';
 
 const addToCart = Joi.object().keys({
-  quantity: Joi.number().required(),
+  quantity: Joi.number().required().min(1),
   size: Joi.string(),
 });
 
@@ -14,7 +14,7 @@ const deleteFromCart = Joi.object().keys({
 });
 
 const editProductInCart = Joi.object().keys({
-  quantity: Joi.number(),
+  quantity: Joi.number().min(1),
   size: Joi.string(),
 });
 
