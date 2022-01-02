@@ -49,5 +49,4 @@ router.get(
   ProductController.getProduct,
 );
 
-// get all products
 export default router;

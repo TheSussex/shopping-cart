@@ -119,7 +119,6 @@ export const validateAuthToken = async(req, res, next) => {
     if (decoded.message) {
       return ApiResponse.error(res, decoded.message, enums.HTTP_UNAUTHORIZED, enums.VALIDATE_AUTH_TOKEN_MIDDLEWARE);
     }
-    // const [ user ] = await UserService.getUser(decoded.email.toLowerCase());
     const payload = { email: decoded.email.toLowerCase() };
     const user = await UserService.findUser(payload);
     if (!user) {
