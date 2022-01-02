@@ -13,7 +13,7 @@ router.post(
   Model(Schema.newProduct, 'payload'),
   AuthMiddleware.getAuthToken,
   AuthMiddleware.validateAuthToken,
-  AuthMiddleware.isAdmin, // only admins can add, edit and delete product from a category
+  AuthMiddleware.isAdmin,
   CategoryMiddleware.getCategory('authenticate'),
   ProductMiddleware.getProductInCategory('validate'),
   ProductController.addProductToCategory,

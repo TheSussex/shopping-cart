@@ -1,7 +1,6 @@
 import crypto from 'crypto';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
-import { v4 as uuidv4 } from 'uuid';
 
 const saltRounds = 10;
 
@@ -37,7 +36,6 @@ export default {
       return error;
     }
   },
-  generateUserId: () => `user-${uuidv4()}`,
   decodeToken: (token, secret) => {
     try {
       return jwt.verify(token, secret);
