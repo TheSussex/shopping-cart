@@ -6,7 +6,6 @@ import ApiResponse from '../../lib/http/lib.http.response';
 import * as UserService from '../services/service.user';
 
 const { AUTHENTICATION_SECRET } = config;
-
 export const generateEmailVerificationToken = async(req, res, next) => {
   try {
     const encryptedToken = await Hash.generateRandom();

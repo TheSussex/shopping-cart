@@ -4,7 +4,7 @@ import 'dotenv/config';
 import expressConfig from './src/config/express';
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const dbURL = process.env.SHOPPING_CART_DEV_DB_URL;
 
